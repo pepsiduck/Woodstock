@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url("polices/Raleway-Regular.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+.section1{
+    left : 0px;
+    top : 0px;
+    width : 100%;
+    left : 100%;
+}
+
+.img1 {
+    
+position: absolute;
+width: 53%;
+height: 711.03px;
+left: 0px;
+top: 0px;
+background: no-repeat;
+background-size: cover;
+background-image: url("images/wood-left.png");
+}
+
+.img1_coverup {
+    
+position: relative;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+background: rgba(0, 0, 0, 0.8);
+}
+
+.img2 {
+
+position: absolute;
+width: 47%;
+height: 659px;
+left: 53%;
+top: 0px;
+background-image: url("images/wood-right.png");
+}
+
+.img2_coverup {
+
+position: relative;
+width: 100%;
+height: 100%;
+left: 0px;
+top: 0px;
+background : rgba(0, 0, 0, 0.8);
+}
+
+.lines{
+    position : absolute;
+    left : 44px;
+    top : 29.48px;
+    width : 43px;
+    height: 26.03px;
+
+}
+
+
+.line1{
+    position: absolute;
+width: 37px;
+height: 0px;
+left: 0px;
+top: 0px;
+
+border: 3px solid #FFFFFF;
+}
+
+.line2{
+    
+position: absolute;
+width: 37px;
+height: 0px;
+left: 0px;
+top: 12.73px;
+
+border: 3px solid #FFFFFF;
+}
+
+.line3{
+    position: absolute;
+width: 37px;
+height: 0px;
+left: 0px;
+top: 23.04px;
+
+border: 3px solid #FFFFFF;
+}
+
+.logo1{
+    position: absolute;
+width: 103.84px;
+height: 15.84px;
+left: 629px;
+top: 18px;
+background-image: url("images/WOOD.png");
+}
+
+.links{
+    position :relative;
+    width : 45%;
+    height: 5%;
+    margin-top : 0%;
+    margin-left : 55%;
+}
+
+.links_list{
+    display: flex;
+    gap : 10%;
+}
+
+.link_text{
+    font-family: "Raleway";
+    color : #FFFFFF;
+    font-size : 18px;
+    list-style-type: none;
+}
+
+.main_logo{
+    position: absolute;
+    width : 319px;
+    height : 111px;
+    left : 590px;
+    top : 220px;
+    background-image : url("images/WOOD-STOCK.png");
+}
+
+.main_logo_rect{
+    position: absolute;
+    top : 16%;
+    left : 29%;
+    width : 34.50%;
+    border: 3px solid #bc9a44;
+}
